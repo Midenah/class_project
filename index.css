@@ -1,0 +1,145 @@
+@media (max-width: 768px) {
+  li {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .but {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  button {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .but {
+    height: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  form {
+    display: block;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-size: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  padding: 5% 15%;
+}
+body span {
+  font-weight: 700;
+  font-size: 30px;
+}
+body li {
+  margin-left: 40px;
+  margin-top: 2%;
+}
+body .but {
+  border-radius: 20px;
+  border: 1px solid;
+  width: 70px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+body .text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 8%;
+  margin-bottom: 3%;
+}
+body .text p {
+  white-space: pre-line;
+  margin-bottom: 3%;
+  line-height: 25px;
+}
+body form input {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+  border-color: #ffffff;
+  margin-right: 2%;
+  margin-bottom: 5%;
+}
+body form button {
+  font-size: 14px;
+}
+body .end p {
+  margin-bottom: 2%;
+  font-size: 12px;
+  font-weight: normal;
+}
+body .end ul i {
+  font-size: 13px;
+  margin-right: 2%;
+  border: 1px solid;
+  border-radius: 50px;
+  height: 20px;
+  width: 27px;
+  padding-top: 5px;
+}
+
+body {
+  background: url(/component/Background.png);
+  background-color: rgba(0, 0, 255, 0.473);
+  color: #ffffff;
+}
+body nav {
+  justify-content: space-between;
+  display: flex;
+}
+body nav ul {
+  display: flex;
+}
+body .text {
+  text-align: center;
+}
+body form {
+  text-align: center;
+}
+body form input {
+  background: inherit;
+}
+body form input::-moz-placeholder {
+  color: #ffffff;
+}
+body form input::placeholder {
+  color: #ffffff;
+}
+body form button {
+  background: #E93A7D;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: #ffffff;
+}
+body .end {
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

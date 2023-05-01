@@ -1,0 +1,35 @@
+$small-screen: 768px;
+li{
+    @media  (max-width:$small-screen){
+        display: none;
+    }
+}
+.but{
+    @media (max-width:$small-screen) {
+        display: flex;
+    }
+}
+button{
+        @media (max-width:$small-screen) {
+            margin-bottom: 10px; 
+    
+        }
+    }
+    
+$medium-screen: 991px;
+
+.but{
+    @media (max-width:$medium-screen) {
+        height: 25px;
+    }
+}
+
+form{
+    @media (max-width:$medium-screen) {
+        display: block;
+    }
+}
+
+$large-screen: 1023px;
+
+$X-large-screen: 1600px;

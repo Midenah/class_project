@@ -1,0 +1,15 @@
+@mixin jflex{
+    text-align: center;
+}
+
+@mixin buts{
+    background: $but;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+}
+@mixin jint{
+    background: inherit;
+}
